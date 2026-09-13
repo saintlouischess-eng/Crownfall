@@ -1,5 +1,13 @@
 # Crownfall — Battle Chess
 
+## Startup repair — packaging revision 2
+
+The first public download omitted `WebView2Loader.dll`, a required Microsoft component. This revision includes the signed x64 DLL and an updated installation manifest. The game executable and gameplay assets are unchanged.
+
+If you already downloaded the original 0.36.0 beta, use [the small startup repair](https://github.com/saintlouischess-eng/Crownfall/releases/download/v0.36.0-beta.2/Crownfall-0.36.0-Startup-Repair.zip). Close Crownfall and extract the repair into the folder containing `Crownfall.exe`, allowing its installation manifest to be replaced. Saved games and settings are preserved. Then run `Crownfall.exe` again.
+
+Microsoft Edge WebView2 Runtime is still required. Installing that Runtime alone does not replace Crownfall's missing loader DLL.
+
 **Windows x64 · 0.36.0 beta**
 
 **A fast, modern dedicated GPU is needed for smooth animations.** Crownfall renders a detailed 3D hall, animated armies and cinematic combat. Lower quality settings help, but do not make this a lightweight chess GUI.
