@@ -1,0 +1,9 @@
+# Public repository: documentation and screenshots only.
+*
+!.gitignore
+!*.md
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/*.yml
+!screenshots/
+!screenshots/*.png

@@ -1,0 +1,33 @@
+name: Report a problem
+description: Report a Crownfall gameplay, graphics, engine, or installation issue.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Please review attachments before posting. Keep personal paths, engine logs, and saved games private unless you choose to share them."
+  - type: input
+    id: version
+    attributes:
+      label: Crownfall version
+      placeholder: 0.36.0 beta
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened and how can we reproduce it?
+      description: Include expected behavior, actual behavior, and the steps or move that triggered it.
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: Graphics and Windows settings
+      description: GPU, Windows version, graphics preset, window resolution, and whether HDR was on.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional screenshot or diagnostics
+      description: Settings → Diagnostics exports a local report. Review it before attaching.
