@@ -43,7 +43,7 @@ Play chess in a decorated great hall where armored troops move, react and fight.
 
 ## Before you start
 
-This is a **graphics-intensive public beta**. The tested computer uses an **RTX 5080**; minimum GPU specifications and performance on other computers are not established. Start with Low or Medium in SDR for smoother animation. See [hardware requirements and measured frame rates](SYSTEM_REQUIREMENTS.md).
+This is a **graphics-intensive public beta**. Development benchmarks use an **RTX 5080**. The creator also reports **RTX 3070 Laptop GPU (8 GB VRAM)** results at a **2560 x 1440 display resolution**: approximately **40 FPS on Ultra, 46 FPS on High and 51 FPS on Medium**. These laptop readings are user-reported; minimum GPU and VRAM requirements are not established. Start with Low or Medium in SDR for smoother animation. See [hardware requirements and performance details](SYSTEM_REQUIREMENTS.md).
 
 Controls, engines, books, updates and troubleshooting are covered in the [Player guide](PLAYER_GUIDE.md). Arrow keys travel through the hall; Page Up / Down changes height; Home returns to the board. Space pauses/resumes or skips an animation. Camera → Free flight enables right-drag looking, W A S D travel and E / Q height controls.
 

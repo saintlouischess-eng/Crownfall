@@ -16,9 +16,21 @@ Microsoft Edge WebView2 Runtime is still required. Installing that Runtime alone
 - An HDR-capable monitor with Windows HDR enabled if you want HDR output. SDR is supported.
 - Enough free storage for both the downloaded ZIP and the extracted game.
 
-This beta was tested on an NVIDIA GeForce RTX 5080. No minimum GPU model has been established. Integrated graphics, older GPUs and other hardware have not been qualified. Do not assume every modern GPU will deliver smooth play.
+Development benchmarks use an NVIDIA GeForce RTX 5080, and the creator has also reported results from an RTX 3070 Laptop GPU with 8 GB VRAM. No minimum GPU model or minimum VRAM capacity has been established. Other configurations, including integrated graphics, still need testing.
 
 For smoother animation, start with **Low or Medium quality in SDR**. A smaller window can help. HDR, ultrawide output and higher shadow quality cost additional rendering time. Keep engine thread and hash settings within your computer's available resources.
+
+## RTX 3070 Laptop GPU: user-reported 1440p results
+
+On 13 September 2026, Crownfall's creator reported the following results on a second computer using an **NVIDIA GeForce RTX 3070 Laptop GPU**, with Windows display resolution set to **2560 x 1440 (1440p)**. This GPU model has **8 GB of dedicated GDDR6 video memory**, according to [NVIDIA's specifications](https://www.nvidia.com/en-us/geforce/laptops/30-series/).
+
+| Graphics preset | Reported FPS |
+|---|---:|
+| Ultra | ~40 |
+| High | ~46 |
+| Medium | ~51 |
+
+These are approximate user-reported FPS readings, not recorded benchmark averages. Low has not yet been reported. HDR mode, internal 3D render resolution, laptop GPU power limits and minimum FPS during combat were not recorded. These observations do not establish a minimum GPU or VRAM requirement and should not be treated as a direct comparison with the controlled RTX 5080 measurements below.
 
 ## Measured on the development computer
 
